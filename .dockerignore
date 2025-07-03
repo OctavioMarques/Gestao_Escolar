@@ -1,0 +1,27 @@
+venv
+_pycache_
+# Git
+.git
+.gitignore
+
+# Docker
+Dockerfile
+.dockerignore
+
+# Python virtual environment
+venv/
+.venv/
+env/
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# IDE and editor directories
+.vscode/
+.idea/
+
+# Database file (should be managed by a volume)
+#escola.db
+#escola.db-journal
