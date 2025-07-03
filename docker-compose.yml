@@ -1,0 +1,9 @@
+services:
+# Serviço da Aplicação FastAPI
+  app:
+    build: . # Constrou a imagem a partir do Dockerfile na raiz do projecto
+    container_name: gestao-escolar # Nome do container
+    ports:
+      - "8000:8000" # Mapeia a porta 8000 do host para a porta 80000 do container
+    volumes:
+      - .:/app
